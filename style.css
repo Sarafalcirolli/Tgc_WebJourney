@@ -30,13 +30,14 @@ nav {
 
 nav ul {
     list-style-type: none;
-    display: flex;
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
+    
 }
+
 
 nav a {
     color: white;
