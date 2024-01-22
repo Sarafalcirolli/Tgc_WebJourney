@@ -1,3 +1,9 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -45,4 +51,20 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+section {
+    min-height: 100vh;
+}
+#home {
+    background-color: rgb(225, 188, 225);
+}
+#aboutme {
+    background-color: rgb(186, 147, 223);
+}
+#bootcampweeks {
+    background-color: rgb(157, 193, 237);
+}
+#projects {
+    background-color: rgb(12, 22, 224);
 }
