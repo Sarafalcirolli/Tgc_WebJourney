@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -10,21 +11,49 @@
 body {
     font-size: 100%;
 }
-
+/* background home page */
 .background {
     background-image: url(/pgfoil.png);
 }
+
+/* --------------------------- navbar --------------------------- */
 
 .classheader {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
-    background-color: rgba(197, 136, 39, 0.775);
-    background-image: linear-gradient(to right, rgba(225, 97, 6, 0.872), rgba(255, 213, 0, 0.912));
+    padding: 20px;
+    background-image: linear-gradient(to right, rgba(225, 97, 6, 0.901), rgba(255, 216, 22, 0.836));
+}
+/* icon img */
+.header-img {
+    height: 70px;
+
+}
+/* aline menu itens */
+.header-menu {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+/* content of nav */
+.header-menu-item {
+    font-family:'Dancing Script';
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 30;
+    
+}
+/* menu-item2 (mywebjourney) */
+.header-menu-item2 {
+    display: flex;
+    font-family:'Dancing Script';
+    font-size: 150%;
+    justify-content: space-around;
+    color: rgb(31, 24, 24);        
 }
 
-.header-img {
-    height: 72px;
-}
+/* ---------------------------------- Mein --------------------- */
+
