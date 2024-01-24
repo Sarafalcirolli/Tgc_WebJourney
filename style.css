@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nanum+Myeongjo&family=PT+Sans:wght@700&display=swap');
 
-. {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,4 +13,18 @@ body {
 
 .background {
     background-image: url(/pgfoil.png);
+}
+
+.classheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: rgba(197, 136, 39, 0.775);
+    background-image: linear-gradient(to right, rgba(225, 97, 6, 0.872), rgba(255, 213, 0, 0.912));
+}
+
+.header-img {
+    height: 72px;
 }
