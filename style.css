@@ -14,6 +14,7 @@ body {
 /* background home page */
 .background {
     background-image: url(/pgfoil.png);
+
 }
 
 /* --------------------------- navbar --------------------------- */
@@ -57,3 +58,8 @@ body {
 
 /* ---------------------------------- Mein --------------------- */
 
+.content {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 100px;
+    
+}
