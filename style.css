@@ -11,11 +11,7 @@
 body {
     font-size: 100%;
 }
-/* background home page */
-.background {
-    background-image: url(/pgfoil.png);
 
-}
 
 /* --------------------------- navbar --------------------------- */
 
@@ -58,8 +54,30 @@ body {
 
 /* ---------------------------------- Mein --------------------- */
 
-.content {
-    border-top: 0.4px solid #fff2e7;
-    padding-top: 100px;
-    
+/* background home page */
+.home-background {
+    background-image: url(/pgfoil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
+
+
+.sidebar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 140px;
+    height: 100%;
+    padding: 20px;
+
+}
+/* .home-content {
+    margin-bottom: 48px; 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+} */
