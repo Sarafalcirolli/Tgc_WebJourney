@@ -12,6 +12,10 @@ body {
     font-size: 100%;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 /* --------------------------- navbar --------------------------- */
 
@@ -26,7 +30,9 @@ body {
 /* icon img */
 .header-img {
     height: 70px;
-
+}
+.header-img:hover{
+    transform: scale(1.5);
 }
 /* aline menu itens */
 .header-menu {
@@ -64,20 +70,4 @@ body {
 }
 
 
-.sidebar{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 140px;
-    height: 100%;
-    padding: 20px;
 
-}
-/* .home-content {
-    margin-bottom: 48px; 
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    
-} */
